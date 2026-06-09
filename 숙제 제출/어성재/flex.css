@@ -1,13 +1,17 @@
+html{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+}
 .container{
     display: flex;
-    align-content: space-around;
-    flex-flow: column wrap;
+    align-items: center;
+    flex-direction: column;
     gap: 100px;
-    margin: 100px;
-    
-    
-
-    
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    width: 300px;
 }
 .target_1{
     width: 100px;
