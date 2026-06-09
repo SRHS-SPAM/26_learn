@@ -1,14 +1,14 @@
 .circle{
     border-radius: 100%;
     background-color: #8a2be2;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
 }
 
 
 .square{
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     background-color: #8a2be2;
 }
 
@@ -24,7 +24,7 @@ html{
 .container{
     background-color: white;
     width: 400px;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
