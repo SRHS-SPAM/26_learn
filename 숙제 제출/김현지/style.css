@@ -1,0 +1,19 @@
+.circle{
+    border-radius: 100%;
+    background-color: #8a2be2;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #8a2be2;
+}
