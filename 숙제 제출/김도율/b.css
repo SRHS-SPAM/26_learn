@@ -1,0 +1,35 @@
+html{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    gap: 50px;
+    justify-content: space-around;
+    
+ }
+ .item{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #8a2be2;
+} .item0{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: #8a2be2;
+}
+ .item1{
+    border-radius: 0px;
+    width: 150px;
+    height: 150px;
+    background-color: #8a2be2;
+ }
