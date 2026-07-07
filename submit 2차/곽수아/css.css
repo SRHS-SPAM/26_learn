@@ -12,6 +12,7 @@ body{
 .box{
     width: 80px;
     height: 80px;
+    border-radius: 5%;
 }
 .box:nth-child(1){background-color: purple;}
 .box:nth-child(2){background-color: red;}
@@ -23,11 +24,13 @@ body{
     position: relative;
     width: 140px;
     height: 140px;
+    border-radius: 5%;
 }
 .smallbox{
     position: absolute;
     width: 80px;
     height: 80px;
+    border-radius: 5%;
 }
 .smallbox:nth-child(1){top: 30px;  left: 30px; background-color: purple; z-index: 5;}
 .smallbox:nth-child(2){top: 0px;  left: 0px; background-color: yellow; z-index: 4;}
