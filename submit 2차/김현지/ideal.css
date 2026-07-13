@@ -1,0 +1,115 @@
+html{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ideal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    padding: 50px;
+}
+
+.a{
+    background-color:blueviolet;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.b{
+    background-color: red;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.c{
+    background-color: orange;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.i{
+    background-color: yellow;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.j{
+    background-color: green;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.k{
+    background-color: yellowgreen;
+    border-radius: 5%;
+    height: 80px;
+    width: 80px;
+}
+
+.co{
+    height: auto;
+    width: auto;
+    border-radius: 5%;
+}
+
+.co:nth-child(1){
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index:2;
+    top: 0;
+    right: 0;
+}
+
+.co:nth-child(2){
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.co:nth-child(3){
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.co:nth-child(4){
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+.co:nth-child(5){
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+
+.d{
+    position: relative;
+    width: 140px;
+    height: 140px;
+}
